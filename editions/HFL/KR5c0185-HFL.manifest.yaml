@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0185/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0185/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 三洞法服科戒文
+  date: '2015-08-29 00:54:10.257345'
+  source:
+    repository: kanripo
+    path: KR5c0185
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0185_000-HFL.yaml, hash: 'sha256:44b940652f1d67c7cd8b752dc5c3f4f54dee4a8b5dd4a7db31387fa0b2653f11'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0185_000-HFL.markers.yaml, hash: 'sha256:d9ce0e6e27be971af8b5b967aa9447cc78cf1d30bf701d4923a241d5c41ba394'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0185_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3227
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:de4c405e2b1e2ed185fe8829f0578d9eb520d0e4a1f894cc116b340233162669
